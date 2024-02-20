@@ -8,12 +8,12 @@ def find_most_common_number(arr):
     most_common = counter.most_common(1)
     return most_common[0][0]
 
-# Чтение входных данных
+# Reading input data
 n = int(input("Введите кол-во искомых чисел: "))
 ai = list(map(int, input("Перечислите эти числа через пробел: ").split()))
 start = time()
 
-# Вызов функции и вывод результата
+# Call func. & call result
 result = find_most_common_number(ai)
 for result in range(0,1000000):
     pass
