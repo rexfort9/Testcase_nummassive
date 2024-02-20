@@ -9,8 +9,8 @@ def find_most_common_number(arr):
     return most_common[0][0]
 
 # Reading input data
-n = int(input("Введите кол-во искомых чисел: "))
-ai = list(map(int, input("Перечислите эти числа через пробел: ").split()))
+n = int(input("Enter number's qty: "))
+ai = list(map(int, input("List numbers, separate via 'space': ").split()))
 start = time()
 
 # Call func. & call result
@@ -21,11 +21,11 @@ for result in range(0,1000000):
 end_time = time()
 
 print(result)
-print("Размер списка в памяти: ", sys.getsizeof(ai), "bytes")
+print("List size in memory: ", sys.getsizeof(ai), "bytes")
 
 memory = sys.getsizeof(ai)
 if memory <= 268435456:
-    print("Размер строки не превышает 256 Мб")
+    print("String sise less than 256 Мб")
 
 elapsed_time = end_time - start
 print ("Time to RUN: ", elapsed_time)
