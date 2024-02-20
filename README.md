@@ -1,6 +1,6 @@
-Number massive counter
+Common number counter
 ====
-This script uses PY to find amount of inputed number's massive. <br>
+This script uses PY to find amount of inputed number's most common one. <br>
 Also, shows some statistics.
 ----
 Script was made for test case <br>
